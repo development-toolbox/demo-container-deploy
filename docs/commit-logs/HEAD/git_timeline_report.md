@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 20:43:50
+> **Generated on:** 2025-01-29 20:50:45
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | c64a717 | GitHub Actions |
-| main | 24df2d6 | GitHub Actions |
-| origin | 13620fe | GitHub Actions |
-| origin/main | 13620fe | GitHub Actions |
+| (no branch, rebasing main) | eb6f4ae | GitHub Actions |
+| main | dff448a | GitHub Actions |
+| origin | c8ad10a | GitHub Actions |
+| origin/main | c8ad10a | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,31 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [eb6f4ae](https://github.com/development-toolbox/demo-container-deploy/commit/eb6f4ae)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): removed terraform init because that should not be there!
+
+### ✅ Commit: [dff448a](https://github.com/development-toolbox/demo-container-deploy/commit/dff448a)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 3831d2228ae98686289446aaa3a2ff2ce5142cf8
+
+### ✅ Commit: [3831d22](https://github.com/development-toolbox/demo-container-deploy/commit/3831d22)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): removed terraform init because that should not be there!
+
+### ✅ Commit: [c8ad10a](https://github.com/development-toolbox/demo-container-deploy/commit/c8ad10a)
+- **Date:** 2025-01-29 19:45:00 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Trivy report [skip ci]
+
+### ✅ Commit: [6514b98](https://github.com/development-toolbox/demo-container-deploy/commit/6514b98)
+- **Date:** 2025-01-29 20:43:09 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: c64a7174e91822749715f214c4c71fecba7282bf
+
 ### ✅ Commit: [c64a717](https://github.com/development-toolbox/demo-container-deploy/commit/c64a717)
 - **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
@@ -32,16 +57,6 @@
 - **Message:** Update commit timeline: ca286b72535569d5de939351d2d8c71fc660e77a
 
 ### ✅ Commit: [ca286b7](https://github.com/development-toolbox/demo-container-deploy/commit/ca286b7)
-- **Date:** 2025-01-29 20:43:09 +0100
-- **Author:** GitHub Actions
-- **Message:** chore(ci): added executable to the file ..
-
-### ✅ Commit: [24df2d6](https://github.com/development-toolbox/demo-container-deploy/commit/24df2d6)
-- **Date:** 2025-01-29 20:43:09 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: 7ba1bc3acfaacb854500cfc22fe4cb916c8b37ed
-
-### ✅ Commit: [7ba1bc3](https://github.com/development-toolbox/demo-container-deploy/commit/7ba1bc3)
 - **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
 - **Message:** chore(ci): added executable to the file ..
