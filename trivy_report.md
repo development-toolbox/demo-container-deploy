@@ -1,5 +1,5 @@
 # Trivy Security Report
-Generated on Wed Jan 29 19:45:00 UTC 2025
+Generated on Wed Jan 29 19:52:15 UTC 2025
 
 **Total HIGH vulnerabilities: 6**
 
