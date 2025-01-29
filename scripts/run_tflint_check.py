@@ -9,11 +9,6 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPORT_FILE = os.path.join(PROJECT_ROOT, "tflint_report.md")
 DB_FILE = os.path.join(PROJECT_ROOT, "scripts/tflint_issue_fetcher/tflint_issues.json")
 
-# Ensure Terraform is initialized
-def initialize_terraform():
-    if not os.path.exists(os.path.join(PROJECT_ROOT, ".terraform")):
-        print("🔧 Initializing Terraform...")
-        subprocess.run(["terraform", "init", "-input=false"], check=False)
 
 # Ensure TFLint is installed
 def install_tflint():
@@ -77,7 +72,6 @@ def save_report(report_text):
 
 # Main function
 def main():
-    initialize_terraform()
     install_tflint()
     
     tflint_output, exit_code = run_tflint()
