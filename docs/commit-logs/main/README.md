@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [b3f842b6](./b3f842b6.md) | 2025-01-29 20:30 | GitHub Actions | feat(ci): add Git function to upload TFLint report |
 | [04a17632](./04a17632.md) | 2025-01-29 20:19 | GitHub Actions | feat(ci): add TFLint issue fetcher and improved TFLint report generator |
 | [d554cbad](./d554cbad.md) | 2025-01-29 19:44 | GitHub Actions | fix(ci): avoid commit conflicts by using separate TFLint report commit |
 | [efc1ef4a](./efc1ef4a.md) | 2025-01-29 19:23 | GitHub Actions | fix(ci): ensure TFLint report changes trigger commit correctly |
