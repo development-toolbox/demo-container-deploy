@@ -22,41 +22,10 @@ jobs:
           terraform_version: 1.5.5
 
       - name: Install and run TFLint and Generate Report
-        run: scripts/run_tflint_check.sh
+        run: python3 scripts/run_tflint_check.py
 
-      - name: Commit and Push TFLint Report
-        run: |
-          # If the report does not exist, create an empty one
-          if [[ ! -f tflint_report.md ]]; then
-            echo "# TFLint Report" > tflint_report.md
-            echo "Generated on $(date)" >> tflint_report.md
-            echo "" >> tflint_report.md
-            echo "No issues found." >> tflint_report.md
-          fi
-
-          # Stop if no changes were made (prevents unnecessary commits)
-          if git diff --quiet tflint_report.md; then
-            echo "No changes detected in TFLint report. Skipping commit."
-            exit 0
-          fi
-
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions@github.com"
-
-          # Only add TFLint report, prevent other files from being committed
-          git add tflint_report.md
-          git commit -m "chore(ci): update TFLint report [skip ci]"
-          git push
-  
-  
-
-      - name: Fail Job if TFLint Found Issues
-        if: always()
-        run: |
-          if [[ "$TFLINT_EXIT_CODE" -ne 0 ]]; then
-            echo "TFLint found issues. Failing job."
-            exit 1
-          fi
+      - name: Upload TFLint Report
+        run: python3 scripts/ci_helpers/upload_tflint_report.py
 
       - name: Terraform Init
         run: terraform init
