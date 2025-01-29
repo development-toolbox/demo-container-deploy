@@ -1,0 +1,9 @@
+/* Anpassat Reveal.js-tema */
+.reveal {
+    background-color: #f0f0f0;
+  }
+  
+  .reveal .slides section {
+    color: #333;
+    font-family: "Arial", sans-serif;
+  }

@@ -1,0 +1,81 @@
+name: Reveal.js CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build-and-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Build Docker Image
+        run: docker build -t revealjs:latest .
+
+      - name: Install Latest Trivy on Ubuntu
+        run: scripts/github-workflow-scripts/install_trivy.sh
+
+      - name: Run Trivy and Generate Report
+        run: |
+          # Run Trivy in JSON mode
+          trivy image --format json --severity HIGH revealjs:latest > trivy_report.json  
+
+          # Start markdown report
+          echo "# Trivy Security Report" > trivy_report.md
+          echo "Generated on $(date)" >> trivy_report.md
+          echo "" >> trivy_report.md  
+
+          # Count vulnerabilities
+          HIGH_VULNS=$(jq '[.Results[].Vulnerabilities | length] | add' trivy_report.json || echo 0)
+          echo "**Total HIGH vulnerabilities: $HIGH_VULNS**" >> trivy_report.md
+          echo "" >> trivy_report.md  
+
+          # Extract vulnerabilities and format as a clean Markdown table
+          echo "| Package | CVE | Severity | Installed | Fixed | Description |" >> trivy_report.md
+          echo "|---------|-----|----------|-----------|-------|-------------|" >> trivy_report.md
+          jq -r '.Results[].Vulnerabilities[] | select(.Severity=="HIGH") | 
+          "| " + .PkgName + " | [" + .VulnerabilityID + "](https://avd.aquasec.com/nvd/" + .VulnerabilityID + ") | " + .Severity + " | " + .InstalledVersion + " | " + (.FixedVersion // "N/A") + " | " + (.Title | gsub("\n"; " ")) + " |"' trivy_report.json >> trivy_report.md  
+
+          echo "" >> trivy_report.md
+          echo "---" >> trivy_report.md
+          echo "" >> trivy_report.md
+          echo "## For OSS Maintainers: VEX Notice" >> trivy_report.md
+          echo "If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement." >> trivy_report.md
+          echo "VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users." >> trivy_report.md
+          echo "Learn more and start using VEX: [Trivy VEX Docs](https://aquasecurity.github.io/trivy/v0.58/docs/supply-chain/vex/repo#publishing-vex-documents)" >> trivy_report.md
+          echo "" >> trivy_report.md
+          echo "To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable." >> trivy_report.md  
+
+          # Capture Trivy exit code
+          TRIVY_EXIT_CODE=${PIPESTATUS[0]}
+
+      - name: Commit and Push Trivy Report
+        run: |
+          # Stop if no changes were made (prevents unnecessary commits)
+          if git diff --quiet trivy_report.md; then
+            echo "No changes detected in Trivy report. Skipping commit."
+            exit 0
+          fi
+
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+
+          # Only add Trivy report, prevent other files from being committed
+          git add trivy_report.md
+          git commit -m "chore(ci): update Trivy report [skip ci]"
+          git push
+  
+  
+
+      - name: Fail Job if Trivy Found Issues
+        if: always()
+        run: |
+          if [[ "$TRIVY_EXIT_CODE" -ne 0 ]]; then
+            echo "Trivy detected $HIGH_VULNS HIGH vulnerabilities. Failing job."
+            exit 1
+          fi
