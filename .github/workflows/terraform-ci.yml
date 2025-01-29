@@ -21,11 +21,8 @@ jobs:
         with:
           terraform_version: 1.5.5
 
-      - name: Install and run TFLint and Generate Report
+      - name: Install and run TFLint and Generate and upload Report
         run: python3 scripts/run_tflint_check.py
-
-      - name: Upload TFLint Report
-        run: python3 scripts/ci_helpers/upload_tflint_report.py
 
       - name: Terraform Init
         run: terraform init

@@ -8,6 +8,7 @@ from datetime import datetime
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPORT_FILE = os.path.join(PROJECT_ROOT, "tflint_report.md")
 DB_FILE = os.path.join(PROJECT_ROOT, "scripts/tflint_issue_fetcher/tflint_issues.json")
+UPLOAD_SCRIPT = os.path.join(PROJECT_ROOT, "scripts/ci_helpers/upload_tflint_report.py")
 
 
 # Ensure TFLint is installed
@@ -70,6 +71,14 @@ def save_report(report_text):
         f.write(report_text)
     print(f"📄 TFLint report saved: {REPORT_FILE}")
 
+# Upload the report before failing
+def upload_report():
+    if os.path.exists(UPLOAD_SCRIPT):
+        print("📤 Uploading TFLint Report...")
+        subprocess.run(["python3", UPLOAD_SCRIPT], check=False)
+    else:
+        print(f"❌ Error: Upload script not found: {UPLOAD_SCRIPT}")
+
 # Main function
 def main():
     install_tflint()
@@ -80,7 +89,10 @@ def main():
     report_text, issues_found = analyze_tflint_output(tflint_output, issue_db)
     save_report(report_text)
     
-    # Exit with TFLint's status code to fail CI/CD if needed
+    # **Upload report before failing the job**
+    upload_report()
+
+    # **Exit with TFLint's status code to fail CI/CD if needed**
     if issues_found:
         print("❌ TFLint found issues. Failing the job.")
         exit(1)
