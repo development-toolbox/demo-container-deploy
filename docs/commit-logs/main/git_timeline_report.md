@@ -1,13 +1,13 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 20:30:40
+> **Generated on:** 2025-01-29 20:35:41
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | b3f842b | GitHub Actions |
+| main | 45b8e25 | GitHub Actions |
 | origin | 9273567 | GitHub Actions |
 | origin/main | 9273567 | GitHub Actions |
 
@@ -20,6 +20,16 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [45b8e25](https://github.com/development-toolbox/demo-container-deploy/commit/45b8e25)
+- **Date:** 2025-01-29 20:35:41 +0100
+- **Author:** GitHub Actions
+- **Message:** feat(ci): Updated Terraform CI workflow to run the python scripts instead
+
+### ✅ Commit: [2fcc7c9](https://github.com/development-toolbox/demo-container-deploy/commit/2fcc7c9)
+- **Date:** 2025-01-29 20:30:39 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b3f842b6377b7efdeb7d7c45c4afc10b82ed585f
+
 ### ✅ Commit: [b3f842b](https://github.com/development-toolbox/demo-container-deploy/commit/b3f842b)
 - **Date:** 2025-01-29 20:30:39 +0100
 - **Author:** GitHub Actions
