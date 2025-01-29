@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 20:43:09
+> **Generated on:** 2025-01-29 20:50:21
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | 7ba1bc3 | GitHub Actions |
-| origin | ec46f5b | GitHub Actions |
-| origin/main | ec46f5b | GitHub Actions |
+| main | 3831d22 | GitHub Actions |
+| origin | 6514b98 | GitHub Actions |
+| origin/main | 6514b98 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,10 +20,35 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
-### ✅ Commit: [7ba1bc3](https://github.com/development-toolbox/demo-container-deploy/commit/7ba1bc3)
+### ✅ Commit: [3831d22](https://github.com/development-toolbox/demo-container-deploy/commit/3831d22)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): removed terraform init because that should not be there!
+
+### ✅ Commit: [6514b98](https://github.com/development-toolbox/demo-container-deploy/commit/6514b98)
+- **Date:** 2025-01-29 20:43:09 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: c64a7174e91822749715f214c4c71fecba7282bf
+
+### ✅ Commit: [c64a717](https://github.com/development-toolbox/demo-container-deploy/commit/c64a717)
+- **Date:** 2025-01-29 20:43:09 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 7ba1bc3acfaacb854500cfc22fe4cb916c8b37ed
+
+### ✅ Commit: [865b790](https://github.com/development-toolbox/demo-container-deploy/commit/865b790)
+- **Date:** 2025-01-29 20:43:09 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: ca286b72535569d5de939351d2d8c71fc660e77a
+
+### ✅ Commit: [ca286b7](https://github.com/development-toolbox/demo-container-deploy/commit/ca286b7)
 - **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
 - **Message:** chore(ci): added executable to the file ..
+
+### ✅ Commit: [13620fe](https://github.com/development-toolbox/demo-container-deploy/commit/13620fe)
+- **Date:** 2025-01-29 19:41:29 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Trivy report [skip ci]
 
 ### ✅ Commit: [ec46f5b](https://github.com/development-toolbox/demo-container-deploy/commit/ec46f5b)
 - **Date:** 2025-01-29 20:40:18 +0100
