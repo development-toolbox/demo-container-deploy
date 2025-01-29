@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [ddac656c](./ddac656c.md) | 2025-01-29 21:01 | GitHub Actions | fix(ci): ensure TFLint report is uploaded before failing the job |
 | [3831d222](./3831d222.md) | 2025-01-29 20:50 | GitHub Actions | fix(ci): removed terraform init because that should not be there! |
 | [7ba1bc3a](./7ba1bc3a.md) | 2025-01-29 20:43 | GitHub Actions | chore(ci): added executable to the file .. |
 | [24f5fab3](./24f5fab3.md) | 2025-01-29 20:40 | GitHub Actions | chore(ci): update TFLint report with latest scan results |

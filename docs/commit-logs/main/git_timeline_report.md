@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 20:50:21
+> **Generated on:** 2025-01-29 21:01:34
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | 3831d22 | GitHub Actions |
-| origin | 6514b98 | GitHub Actions |
-| origin/main | 6514b98 | GitHub Actions |
+| main | ddac656 | GitHub Actions |
+| origin | 6f60207 | GitHub Actions |
+| origin/main | 6f60207 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,10 +20,40 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
-### ✅ Commit: [3831d22](https://github.com/development-toolbox/demo-container-deploy/commit/3831d22)
+### ✅ Commit: [ddac656](https://github.com/development-toolbox/demo-container-deploy/commit/ddac656)
+- **Date:** 2025-01-29 21:01:33 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): ensure TFLint report is uploaded before failing the job
+
+### ✅ Commit: [6f60207](https://github.com/development-toolbox/demo-container-deploy/commit/6f60207)
+- **Date:** 2025-01-29 19:52:16 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Trivy report [skip ci]
+
+### ✅ Commit: [b7d4bba](https://github.com/development-toolbox/demo-container-deploy/commit/b7d4bba)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 44ee90777f430f424a8ccfc3a7018a5534d866b6
+
+### ✅ Commit: [44ee907](https://github.com/development-toolbox/demo-container-deploy/commit/44ee907)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 3831d2228ae98686289446aaa3a2ff2ce5142cf8
+
+### ✅ Commit: [b0d2b10](https://github.com/development-toolbox/demo-container-deploy/commit/b0d2b10)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: eb6f4ae6be57b1e9ed7265ba571158b140b3d94a
+
+### ✅ Commit: [eb6f4ae](https://github.com/development-toolbox/demo-container-deploy/commit/eb6f4ae)
 - **Date:** 2025-01-29 20:50:21 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(ci): removed terraform init because that should not be there!
+
+### ✅ Commit: [c8ad10a](https://github.com/development-toolbox/demo-container-deploy/commit/c8ad10a)
+- **Date:** 2025-01-29 19:45:00 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Trivy report [skip ci]
 
 ### ✅ Commit: [6514b98](https://github.com/development-toolbox/demo-container-deploy/commit/6514b98)
 - **Date:** 2025-01-29 20:43:09 +0100
