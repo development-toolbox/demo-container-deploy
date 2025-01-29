@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 19:23:40
+> **Generated on:** 2025-01-29 20:43:40
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | b080fe2 | GitHub Actions |
-| main | 0cfc22c | GitHub Actions |
-| origin | 3c06574 | GitHub Actions |
-| origin/main | 3c06574 | GitHub Actions |
+| (no branch, rebasing main) | ca286b7 | GitHub Actions |
+| main | 24df2d6 | GitHub Actions |
+| origin | 13620fe | GitHub Actions |
+| origin/main | 13620fe | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,135 +21,95 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
-### ✅ Commit: [b080fe2](https://github.com/development-toolbox/demo-container-deploy/commit/b080fe2)
-- **Date:** 2025-01-29 19:23:10 +0100
+### ✅ Commit: [ca286b7](https://github.com/development-toolbox/demo-container-deploy/commit/ca286b7)
+- **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
-- **Message:** Update commit timeline: efc1ef4aa00d1860f48b7d18770f142db6754c67
+- **Message:** chore(ci): added executable to the file ..
 
-### ✅ Commit: [c6a2e6a](https://github.com/development-toolbox/demo-container-deploy/commit/c6a2e6a)
-- **Date:** 2025-01-29 19:23:10 +0100
+### ✅ Commit: [24df2d6](https://github.com/development-toolbox/demo-container-deploy/commit/24df2d6)
+- **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
-- **Message:** Update commit timeline: 13fce486d15b3b46fff1071025df7f17a0d0c6de
+- **Message:** Update commit timeline: 7ba1bc3acfaacb854500cfc22fe4cb916c8b37ed
 
-### ✅ Commit: [13fce48](https://github.com/development-toolbox/demo-container-deploy/commit/13fce48)
-- **Date:** 2025-01-29 19:23:10 +0100
+### ✅ Commit: [7ba1bc3](https://github.com/development-toolbox/demo-container-deploy/commit/7ba1bc3)
+- **Date:** 2025-01-29 20:43:09 +0100
 - **Author:** GitHub Actions
-- **Message:** fix(ci): ensure TFLint report changes trigger commit correctly
+- **Message:** chore(ci): added executable to the file ..
 
-### ✅ Commit: [0cfc22c](https://github.com/development-toolbox/demo-container-deploy/commit/0cfc22c)
-- **Date:** 2025-01-29 19:23:10 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: efc1ef4aa00d1860f48b7d18770f142db6754c67
-
-### ✅ Commit: [efc1ef4](https://github.com/development-toolbox/demo-container-deploy/commit/efc1ef4)
-- **Date:** 2025-01-29 19:23:10 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(ci): ensure TFLint report changes trigger commit correctly
-
-### ✅ Commit: [3c06574](https://github.com/development-toolbox/demo-container-deploy/commit/3c06574)
-- **Date:** 2025-01-29 18:21:30 +0000
-- **Author:** GitHub Actions
-- **Message:** chore(ci): update TFLint report [skip ci]
-
-### ✅ Commit: [fd74c1a](https://github.com/development-toolbox/demo-container-deploy/commit/fd74c1a)
-- **Date:** 2025-01-29 18:03:50 +0000
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: addd105d367ca7a482934991721be48766676a18
-
-### ✅ Commit: [addd105](https://github.com/development-toolbox/demo-container-deploy/commit/addd105)
-- **Date:** 2025-01-29 18:03:50 +0000
+### ✅ Commit: [13620fe](https://github.com/development-toolbox/demo-container-deploy/commit/13620fe)
+- **Date:** 2025-01-29 19:41:29 +0000
 - **Author:** GitHub Actions
 - **Message:** chore(ci): update Trivy report [skip ci]
 
-### ✅ Commit: [cec45a9](https://github.com/development-toolbox/demo-container-deploy/commit/cec45a9)
-- **Date:** 2025-01-29 19:02:10 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 556aedaf55b02a629a6c211ca3495750f16b3b86
+### ✅ Commit: [ec46f5b](https://github.com/development-toolbox/demo-container-deploy/commit/ec46f5b)
+- **Date:** 2025-01-29 20:40:18 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 24f5fab3c452f64d19f3eb37b14f1206f7107b92
 
-### ✅ Commit: [556aeda](https://github.com/development-toolbox/demo-container-deploy/commit/556aeda)
-- **Date:** 2025-01-29 19:02:10 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 186218bceceab27e454dd197f1339139eb3dd1b3
+### ✅ Commit: [24f5fab](https://github.com/development-toolbox/demo-container-deploy/commit/24f5fab)
+- **Date:** 2025-01-29 20:40:18 +0100
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
 
-### ✅ Commit: [a6374c4](https://github.com/development-toolbox/demo-container-deploy/commit/a6374c4)
-- **Date:** 2025-01-29 19:02:10 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 9c9b4443df63df8c8aba8ca6b8315baebab5c3e9
-
-### ✅ Commit: [9c9b444](https://github.com/development-toolbox/demo-container-deploy/commit/9c9b444)
-- **Date:** 2025-01-29 19:02:10 +0100
-- **Author:** Johan Sörell
-- **Message:** chore(ci): add run_tflint_check.sh for consistent TFLint execution
-
-### ✅ Commit: [9c42681](https://github.com/development-toolbox/demo-container-deploy/commit/9c42681)
-- **Date:** 2025-01-29 16:27:57 +0000
+### ✅ Commit: [1d76426](https://github.com/development-toolbox/demo-container-deploy/commit/1d76426)
+- **Date:** 2025-01-29 19:36:52 +0000
 - **Author:** GitHub Actions
 - **Message:** chore(ci): update Trivy report [skip ci]
 
-### ✅ Commit: [415b4ac](https://github.com/development-toolbox/demo-container-deploy/commit/415b4ac)
-- **Date:** 2025-01-29 17:26:39 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 5cfe261fa74ff1248458a403b77e35ccbe97651d
-
-### ✅ Commit: [5cfe261](https://github.com/development-toolbox/demo-container-deploy/commit/5cfe261)
-- **Date:** 2025-01-29 17:26:39 +0100
-- **Author:** Johan Sörell
-- **Message:** fix(ci): ensure TFLint report is always created and committed
-
-### ✅ Commit: [d4dd151](https://github.com/development-toolbox/demo-container-deploy/commit/d4dd151)
-- **Date:** 2025-01-29 14:34:03 +0000
+### ✅ Commit: [d499261](https://github.com/development-toolbox/demo-container-deploy/commit/d499261)
+- **Date:** 2025-01-29 20:35:41 +0100
 - **Author:** GitHub Actions
-- **Message:** chore(ci): update Trivy report [skip ci]
+- **Message:** Update commit timeline: 45b8e25a6f675fc24a2dbcf1228e2eea6b63e800
 
-### ✅ Commit: [c209788](https://github.com/development-toolbox/demo-container-deploy/commit/c209788)
-- **Date:** 2025-01-29 15:32:17 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: fd152b7c5e5b4ab9689b540271c73143b23c6135
-
-### ✅ Commit: [fd152b7](https://github.com/development-toolbox/demo-container-deploy/commit/fd152b7)
-- **Date:** 2025-01-29 15:32:17 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 26aa0ff3ba5ea090981602c785b9cdb512e4c71e
-
-### ✅ Commit: [036f1c0](https://github.com/development-toolbox/demo-container-deploy/commit/036f1c0)
-- **Date:** 2025-01-29 15:32:17 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 6b15f8ca67ba19e99e32877926a4b15e56c50039
-
-### ✅ Commit: [6b15f8c](https://github.com/development-toolbox/demo-container-deploy/commit/6b15f8c)
-- **Date:** 2025-01-29 15:32:17 +0100
-- **Author:** Johan Sörell
-- **Message:** fix(ci): ensure TFLint report is always created and committed
-
-### ✅ Commit: [60a9854](https://github.com/development-toolbox/demo-container-deploy/commit/60a9854)
-- **Date:** 2025-01-29 14:23:21 +0000
+### ✅ Commit: [45b8e25](https://github.com/development-toolbox/demo-container-deploy/commit/45b8e25)
+- **Date:** 2025-01-29 20:35:41 +0100
 - **Author:** GitHub Actions
-- **Message:** chore(ci): update Trivy report [skip ci]
+- **Message:** feat(ci): Updated Terraform CI workflow to run the python scripts instead
 
-### ✅ Commit: [d23db78](https://github.com/development-toolbox/demo-container-deploy/commit/d23db78)
-- **Date:** 2025-01-29 15:21:18 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: e0f882e73d25adedaaa267d4f4cb9bb0bff6eed6
+### ✅ Commit: [2fcc7c9](https://github.com/development-toolbox/demo-container-deploy/commit/2fcc7c9)
+- **Date:** 2025-01-29 20:30:39 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b3f842b6377b7efdeb7d7c45c4afc10b82ed585f
 
-### ✅ Commit: [e0f882e](https://github.com/development-toolbox/demo-container-deploy/commit/e0f882e)
-- **Date:** 2025-01-29 15:21:18 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: 437413e39e4de81cec2298606f75ce6ff0090761
+### ✅ Commit: [b3f842b](https://github.com/development-toolbox/demo-container-deploy/commit/b3f842b)
+- **Date:** 2025-01-29 20:30:39 +0100
+- **Author:** GitHub Actions
+- **Message:** feat(ci): add Git function to upload TFLint report
 
-### ✅ Commit: [5d2a9e3](https://github.com/development-toolbox/demo-container-deploy/commit/5d2a9e3)
-- **Date:** 2025-01-29 15:21:18 +0100
-- **Author:** Johan Sörell
-- **Message:** Update commit timeline: bd73f8ab3286aa45e59f5dee9ad112875535e474
+### ✅ Commit: [9273567](https://github.com/development-toolbox/demo-container-deploy/commit/9273567)
+- **Date:** 2025-01-29 19:19:46 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report
 
-### ✅ Commit: [bd73f8a](https://github.com/development-toolbox/demo-container-deploy/commit/bd73f8a)
-- **Date:** 2025-01-29 15:21:18 +0100
-- **Author:** Johan Sörell
-- **Message:** fix(ci): restrict GitHub Actions to commit only reports
+### ✅ Commit: [a75b458](https://github.com/development-toolbox/demo-container-deploy/commit/a75b458)
+- **Date:** 2025-01-29 20:19:22 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 04a1763270ce9e901690e47e3c830ba7ad4c48c0
 
-### ✅ Commit: [d27cc9d](https://github.com/development-toolbox/demo-container-deploy/commit/d27cc9d)
-- **Date:** 2025-01-29 15:06:37 +0100
-- **Author:** Johan Sörell
-- **Message:** fix(ci): build Docker image before Trivy scan, append reports before failing
+### ✅ Commit: [04a1763](https://github.com/development-toolbox/demo-container-deploy/commit/04a1763)
+- **Date:** 2025-01-29 20:19:22 +0100
+- **Author:** GitHub Actions
+- **Message:** feat(ci): add TFLint issue fetcher and improved TFLint report generator
+
+### ✅ Commit: [f8cee16](https://github.com/development-toolbox/demo-container-deploy/commit/f8cee16)
+- **Date:** 2025-01-29 18:45:21 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report
+
+### ✅ Commit: [b894690](https://github.com/development-toolbox/demo-container-deploy/commit/b894690)
+- **Date:** 2025-01-29 19:44:44 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: d554cbad1517639726e6a42bf7b5c3419941a860
+
+### ✅ Commit: [d554cba](https://github.com/development-toolbox/demo-container-deploy/commit/d554cba)
+- **Date:** 2025-01-29 19:44:44 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): avoid commit conflicts by using separate TFLint report commit
+
+### ✅ Commit: [8c75090](https://github.com/development-toolbox/demo-container-deploy/commit/8c75090)
+- **Date:** 2025-01-29 19:23:10 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b080fe2c33e9f63dc354549214f9785646ce4f63
 
 
 ## ✅ Summary
