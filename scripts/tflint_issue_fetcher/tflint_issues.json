@@ -1,0 +1,78 @@
+{
+    "README": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md)"
+    },
+    "terraform_comment_syntax": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_comment_syntax.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_comment_syntax.md)"
+    },
+    "terraform_deprecated_index": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_index.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_index.md)"
+    },
+    "terraform_deprecated_interpolation": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_interpolation.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_interpolation.md)"
+    },
+    "terraform_deprecated_lookup": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_lookup.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_deprecated_lookup.md)"
+    },
+    "terraform_documented_outputs": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_documented_outputs.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_documented_outputs.md)"
+    },
+    "terraform_documented_variables": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_documented_variables.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_documented_variables.md)"
+    },
+    "terraform_empty_list_equality": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_empty_list_equality.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_empty_list_equality.md)"
+    },
+    "terraform_map_duplicate_keys": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_map_duplicate_keys.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_map_duplicate_keys.md)"
+    },
+    "terraform_module_pinned_source": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_module_pinned_source.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_module_pinned_source.md)"
+    },
+    "terraform_module_version": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_module_version.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_module_version.md)"
+    },
+    "terraform_naming_convention": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_naming_convention.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_naming_convention.md)"
+    },
+    "terraform_required_providers": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_required_providers.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_required_providers.md)"
+    },
+    "terraform_required_version": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_required_version.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_required_version.md)"
+    },
+    "terraform_standard_module_structure": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_standard_module_structure.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_standard_module_structure.md)"
+    },
+    "terraform_typed_variables": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_typed_variables.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_typed_variables.md)"
+    },
+    "terraform_unused_declarations": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_unused_declarations.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_unused_declarations.md)"
+    },
+    "terraform_unused_required_providers": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_unused_required_providers.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_unused_required_providers.md)"
+    },
+    "terraform_workspace_remote": {
+        "url": "https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_workspace_remote.md",
+        "description": "More details: [Terraform Linter Docs](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/terraform_workspace_remote.md)"
+    }
+}
