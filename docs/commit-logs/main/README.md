@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [7ba1bc3a](./7ba1bc3a.md) | 2025-01-29 20:43 | GitHub Actions | chore(ci): added executable to the file .. |
 | [24f5fab3](./24f5fab3.md) | 2025-01-29 20:40 | GitHub Actions | chore(ci): update TFLint report with latest scan results |
 | [45b8e25a](./45b8e25a.md) | 2025-01-29 20:35 | GitHub Actions | feat(ci): Updated Terraform CI workflow to run the python scripts instead |
 | [b3f842b6](./b3f842b6.md) | 2025-01-29 20:30 | GitHub Actions | feat(ci): add Git function to upload TFLint report |
