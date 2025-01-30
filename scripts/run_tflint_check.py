@@ -11,6 +11,8 @@ DB_FILE = os.path.join(PROJECT_ROOT, "scripts/tflint_issue_fetcher/tflint_issues
 UPLOAD_SCRIPT = os.path.join(PROJECT_ROOT, "scripts/ci_helpers/upload_report.py")
 
 
+
+
 # Ensure TFLint is installed
 def install_tflint():
     try:
@@ -72,10 +74,11 @@ def save_report(report_text):
     print(f"📄 TFLint report saved: {REPORT_FILE}")
 
 # Upload the report before failing
-def upload_report():
+def upload_report(report_type):
+    """Upload the correct report based on type (TFLint, Trivy, etc.)."""
     if os.path.exists(UPLOAD_SCRIPT):
-        print("📤 Uploading TFLint Report...")
-        subprocess.run(["python3", UPLOAD_SCRIPT], check=False)
+        print(f"📤 Uploading {report_type} Report...")
+        subprocess.run(["python3", UPLOAD_SCRIPT, report_type], check=False)
     else:
         print(f"❌ Error: Upload script not found: {UPLOAD_SCRIPT}")
 
@@ -90,7 +93,7 @@ def main():
     save_report(report_text)
     
     # **Upload report before failing the job**
-    upload_report()
+    upload_report("TFLint")  # 👈 Pass "TFLint" 
 
     # **Exit with TFLint's status code to fail CI/CD if needed**
     if issues_found:

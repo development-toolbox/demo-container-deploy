@@ -12,12 +12,14 @@ JSON_REPORT_FILE = os.path.join(PROJECT_ROOT, "trivy_report.json")
 UPLOAD_SCRIPT = os.path.join(PROJECT_ROOT, "scripts/ci_helpers/upload_report.py")
 
 # Upload the report before failing
-def upload_report():
+def upload_report(report_type):
+    """Upload the correct report based on type (TFLint, Trivy, etc.)."""
     if os.path.exists(UPLOAD_SCRIPT):
-        print("📤 Uploading Trivy Report...")
-        subprocess.run(["python3", UPLOAD_SCRIPT, "Trivy"], check=False)
+        print(f"📤 Uploading {report_type} Report...")
+        subprocess.run(["python3", UPLOAD_SCRIPT, report_type], check=False)
     else:
         print(f"❌ Error: Upload script not found: {UPLOAD_SCRIPT}")
+
 
 # Detect if using Podman or Docker
 USE_PODMAN = os.path.exists(f"/run/user/{os.getuid()}/podman/podman.sock")
@@ -118,7 +120,7 @@ def main():
     high_vulns = generate_report()
 
     # ✅ Upload report **before** failing
-    upload_report()
+    upload_report("Trivy")
 
     if high_vulns > 0:
         print(f"❌ Trivy detected {high_vulns} HIGH vulnerabilities. Failing workflow.")
