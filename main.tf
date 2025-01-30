@@ -1,4 +1,5 @@
 terraform {
+  required_version = ">= 1.0.0"
   required_providers {
     podman = {
       source  = "hashicorp/podman"
@@ -12,6 +13,7 @@ provider "podman" {
 }
 
 variable "user_id" {
+  type    = number
   default = "1000"  # Change this based on your user ID dynamically
 }
 
