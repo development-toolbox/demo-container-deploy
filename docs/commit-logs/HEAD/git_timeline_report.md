@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 16:52:23
+> **Generated on:** 2025-01-30 18:59:22
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | 0fd5df9 | GitHub Actions |
-| main | 1428b08 | GitHub Actions |
-| origin | 86907a9 | GitHub Actions |
-| origin/main | 86907a9 | GitHub Actions |
+| (no branch, rebasing main) | 4e1474c | GitHub Actions |
+| main | fdc4d26 | GitHub Actions |
+| origin | 6039aff | GitHub Actions |
+| origin/main | 6039aff | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,81 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [4e1474c](https://github.com/development-toolbox/demo-container-deploy/commit/4e1474c)
+- **Date:** 2025-01-30 18:59:00 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): corrected upload_report call to handle multiple scan types
+
+### ✅ Commit: [fdc4d26](https://github.com/development-toolbox/demo-container-deploy/commit/fdc4d26)
+- **Date:** 2025-01-30 18:59:00 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 442bad96dc57f3f258471fb45e938e15a58fa38b
+
+### ✅ Commit: [442bad9](https://github.com/development-toolbox/demo-container-deploy/commit/442bad9)
+- **Date:** 2025-01-30 18:59:00 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): corrected upload_report call to handle multiple scan types
+
+### ✅ Commit: [6039aff](https://github.com/development-toolbox/demo-container-deploy/commit/6039aff)
+- **Date:** 2025-01-30 17:28:03 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [1d2c437](https://github.com/development-toolbox/demo-container-deploy/commit/1d2c437)
+- **Date:** 2025-01-30 18:27:40 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 9d719f6a29cfe6ce429bee121dda0e3390cbaa81
+
+### ✅ Commit: [9d719f6](https://github.com/development-toolbox/demo-container-deploy/commit/9d719f6)
+- **Date:** 2025-01-30 18:27:40 +0100
+- **Author:** GitHub Actions
+- **Message:** chore(ci): ensure Trivy report always uploads before failing workflow
+
+### ✅ Commit: [f964dda](https://github.com/development-toolbox/demo-container-deploy/commit/f964dda)
+- **Date:** 2025-01-30 17:08:46 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [ba4291e](https://github.com/development-toolbox/demo-container-deploy/commit/ba4291e)
+- **Date:** 2025-01-30 18:08:27 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: ef972b4caaa35b63e18c38858617d06c4ac457a3
+
+### ✅ Commit: [ef972b4](https://github.com/development-toolbox/demo-container-deploy/commit/ef972b4)
+- **Date:** 2025-01-30 18:08:27 +0100
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [a2ba981](https://github.com/development-toolbox/demo-container-deploy/commit/a2ba981)
+- **Date:** 2025-01-30 16:45:41 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [dcfa8a5](https://github.com/development-toolbox/demo-container-deploy/commit/dcfa8a5)
+- **Date:** 2025-01-30 17:45:13 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b066dffa68b71bae5aa0024bcf2c59e7cbbdd58e
+
+### ✅ Commit: [b066dff](https://github.com/development-toolbox/demo-container-deploy/commit/b066dff)
+- **Date:** 2025-01-30 17:45:13 +0100
+- **Author:** GitHub Actions
+- **Message:** chore(gitignore): fix so gitignore do not ignore my docs/commit-logs
+
+### ✅ Commit: [5b48800](https://github.com/development-toolbox/demo-container-deploy/commit/5b48800)
+- **Date:** 2025-01-30 17:40:49 +0100
+- **Author:** GitHub Actions
+- **Message:** refactor(ci): unify report upload logic for TFLint & Trivy scans
+
+### ✅ Commit: [83c44ee](https://github.com/development-toolbox/demo-container-deploy/commit/83c44ee)
+- **Date:** 2025-01-30 15:52:57 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [54b13ee](https://github.com/development-toolbox/demo-container-deploy/commit/54b13ee)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 0fd5df900b40efa65a379e5f4a8a3b46cbddb38b
+
 ### ✅ Commit: [0fd5df9](https://github.com/development-toolbox/demo-container-deploy/commit/0fd5df9)
 - **Date:** 2025-01-30 16:47:57 +0100
 - **Author:** GitHub Actions
@@ -37,16 +112,6 @@
 - **Message:** Update commit timeline: 5aa6b6f0a4174a1ac5c279f25e4d55e3ff2a5656
 
 ### ✅ Commit: [5aa6b6f](https://github.com/development-toolbox/demo-container-deploy/commit/5aa6b6f)
-- **Date:** 2025-01-30 16:47:57 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(security-scan): created a script to do the securityscan and create a md file v1
-
-### ✅ Commit: [1428b08](https://github.com/development-toolbox/demo-container-deploy/commit/1428b08)
-- **Date:** 2025-01-30 16:47:57 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: 9a3fdba16ed17ec00a66f5f0f0d7dec912ea8c35
-
-### ✅ Commit: [9a3fdba](https://github.com/development-toolbox/demo-container-deploy/commit/9a3fdba)
 - **Date:** 2025-01-30 16:47:57 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(security-scan): created a script to do the securityscan and create a md file v1

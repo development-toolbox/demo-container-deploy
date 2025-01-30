@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [4e1474cf](./4e1474cf.md) | 2025-01-30 18:59 | GitHub Actions | fix(ci): corrected upload_report call to handle multiple scan types |
 | [a1111001](./a1111001.md) | 2025-01-30 16:47 | GitHub Actions | Update commit timeline: 5aa6b6f0a4174a1ac5c279f25e4d55e3ff2a5656 |
 | [5aa6b6f0](./5aa6b6f0.md) | 2025-01-30 16:47 | GitHub Actions | fix(security-scan): created a script to do the securityscan and create a md file v1 |
 | [0fd5df90](./0fd5df90.md) | 2025-01-30 16:47 | GitHub Actions | Update commit timeline: 9a3fdba16ed17ec00a66f5f0f0d7dec912ea8c35 |
