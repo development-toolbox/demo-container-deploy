@@ -1,5 +1,6 @@
 terraform {
   required_version = ">= 1.0.0"
+
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"
@@ -8,33 +9,50 @@ terraform {
   }
 }
 
+variable "use_podman" {
+  description = "Set to true if using Podman, false if using Docker"
+  type        = bool
+  default     = false  # Set this to true for local Podman use
+}
+
 provider "docker" {
-  host = "unix:///run/user/${var.user_id}/podman/podman.sock"
+  host = var.use_podman ? "unix:///run/user/${var.user_id}/podman/podman.sock" : "unix:///var/run/docker.sock"
 }
 
 variable "user_id" {
   type    = number
-  default = "1000"  # Change this based on your user ID dynamically
+  default = 1000  # Change this based on your system user ID
 }
 
 resource "docker_image" "revealjs" {
-  name       = "revealjs"
-  dockerfile = "${path.module}/Dockerfile"
-  context    = path.module
+  name = "revealjs"
+  
+  build {
+    context    = path.module
+    dockerfile = "${path.module}/Dockerfile"
+  }
 }
 
 resource "docker_container" "revealjs_presentation" {
-  image = docker_image.revealjs.id
+  image = docker_image.revealjs.image_id
   name  = "revealjs-container"
 
-  ports = {
-    "8000" = "8000"
+  ports {
+    internal = 8000
+    external = 8000
   }
 
-  volumes = [
-    "${path.module}/presentation.md:/app/presentation.md:Z",
-    "${path.module}/theme.css:/app/reveal.js/css/theme/custom.css:Z"
-  ]
+  mounts {
+    target = "/app/presentation.md"
+    source = "${path.module}/presentation.md"
+    type   = "bind"
+  }
+
+  mounts {
+    target = "/app/reveal.js/css/theme/custom.css"
+    source = "${path.module}/theme.css"
+    type   = "bind"
+  }
 
   command = ["sh", "-c", "/app/start.sh"]
 }
