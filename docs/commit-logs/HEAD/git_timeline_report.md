@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 19:06:57
+> **Generated on:** 2025-01-30 19:25:54
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | ae218d4 | GitHub Actions |
-| main | 4758fd1 | GitHub Actions |
-| origin | e64f183 | GitHub Actions |
-| origin/main | e64f183 | GitHub Actions |
+| (no branch, rebasing main) | e2bcd14 | GitHub Actions |
+| main | e370f5e | GitHub Actions |
+| origin | e1ee9d8 | GitHub Actions |
+| origin/main | e1ee9d8 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,46 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [e2bcd14](https://github.com/development-toolbox/demo-container-deploy/commit/e2bcd14)
+- **Date:** 2025-01-30 19:25:41 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder
+
+### ✅ Commit: [e370f5e](https://github.com/development-toolbox/demo-container-deploy/commit/e370f5e)
+- **Date:** 2025-01-30 19:25:41 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 291d3adc9518f53c306212f331c3348471d1c04b
+
+### ✅ Commit: [291d3ad](https://github.com/development-toolbox/demo-container-deploy/commit/291d3ad)
+- **Date:** 2025-01-30 19:25:41 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder
+
+### ✅ Commit: [e1ee9d8](https://github.com/development-toolbox/demo-container-deploy/commit/e1ee9d8)
+- **Date:** 2025-01-30 18:17:36 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [a7f183b](https://github.com/development-toolbox/demo-container-deploy/commit/a7f183b)
+- **Date:** 2025-01-30 19:16:19 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 25e575456aca64772f8469693e28b0c4ecc40745
+
+### ✅ Commit: [25e5754](https://github.com/development-toolbox/demo-container-deploy/commit/25e5754)
+- **Date:** 2025-01-30 19:16:19 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): add required provider block and correct podman resource definitions
+
+### ✅ Commit: [e3f23b7](https://github.com/development-toolbox/demo-container-deploy/commit/e3f23b7)
+- **Date:** 2025-01-30 18:07:18 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [878b48b](https://github.com/development-toolbox/demo-container-deploy/commit/878b48b)
+- **Date:** 2025-01-30 19:06:26 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: ae218d43f738924ef3988c6f1bd3f66dc8db2fd8
+
 ### ✅ Commit: [ae218d4](https://github.com/development-toolbox/demo-container-deploy/commit/ae218d4)
 - **Date:** 2025-01-30 19:06:26 +0100
 - **Author:** GitHub Actions
@@ -32,16 +72,6 @@
 - **Message:** Update commit timeline: 83e35b200c2acc6c2979deb3fa6e312ea2050c9d
 
 ### ✅ Commit: [83e35b2](https://github.com/development-toolbox/demo-container-deploy/commit/83e35b2)
-- **Date:** 2025-01-30 19:06:26 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(script): Updated executable bit
-
-### ✅ Commit: [4758fd1](https://github.com/development-toolbox/demo-container-deploy/commit/4758fd1)
-- **Date:** 2025-01-30 19:06:26 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: c5f8a10021e97d3c63b4246345723ddb92c0f123
-
-### ✅ Commit: [c5f8a10](https://github.com/development-toolbox/demo-container-deploy/commit/c5f8a10)
 - **Date:** 2025-01-30 19:06:26 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(script): Updated executable bit
