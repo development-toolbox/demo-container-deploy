@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [416d0688](./416d0688.md) | 2025-01-30 19:05 | GitHub Actions | chore(ci): update Trivy report with latest scan results |
 | [442bad96](./442bad96.md) | 2025-01-30 18:59 | GitHub Actions | fix(ci): corrected upload_report call to handle multiple scan types |
 | [9d719f6a](./9d719f6a.md) | 2025-01-30 18:27 | GitHub Actions | chore(ci): ensure Trivy report always uploads before failing workflow |
 | [ef972b4c](./ef972b4c.md) | 2025-01-30 18:08 | GitHub Actions | chore(ci): update TFLint report with latest scan results |
