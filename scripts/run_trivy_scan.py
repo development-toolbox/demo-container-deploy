@@ -2,6 +2,7 @@
 import subprocess
 import json
 import os
+import sys
 from datetime import datetime
 
 # Paths
@@ -30,15 +31,15 @@ else:
 def run_trivy_scan():
     """Runs Trivy with correct runtime and generates a JSON report."""
     print(f"🚀 Running Trivy Image Scan using {CONTAINER_RUNTIME}...")
-    
+
     # Ensure the image exists
     check_image_command = [CONTAINER_RUNTIME, "images", "-q", "revealjs:latest"]
     result = subprocess.run(check_image_command, capture_output=True, text=True)
-    
+
     if not result.stdout.strip():
         print(f"❌ Error: Image 'revealjs:latest' not found in {CONTAINER_RUNTIME}.")
         print("💡 Build the image first: `podman build -t revealjs:latest .` (or `docker build ...`)")
-        exit(1)
+        sys.exit(1)
 
     command = ["trivy", "image", "--format", "json", "--severity", "HIGH", "revealjs:latest"]
 
@@ -47,7 +48,7 @@ def run_trivy_scan():
             subprocess.run(command, stdout=json_file, check=True)
         except subprocess.CalledProcessError as e:
             print(f"❌ Trivy scan failed: {e}")
-            exit(1)
+            sys.exit(1)
 
 # Generate Markdown Report
 def generate_report():
@@ -69,21 +70,23 @@ def generate_report():
         for vuln in result.get("Vulnerabilities", []):
             if vuln.get("Severity") == "HIGH":
                 high_vulns += 1
-                
+
                 # **Fix CVE Link** (Use NVD database instead of `aquasec`)
                 cve_id = vuln.get("VulnerabilityID")
                 cve_link = f"https://nvd.nist.gov/vuln/detail/{cve_id}"  # ✅ Correct link
-                
+
                 pkg_name = vuln.get("PkgName", "N/A")
                 installed_version = vuln.get("InstalledVersion", "N/A")
                 fixed_version = vuln.get("FixedVersion", "N/A") if vuln.get("FixedVersion") else "N/A"
                 description = vuln.get("Title", "No description available.")
 
-                report_lines.append(f"| {pkg_name} | [{cve_id}]({cve_link}) | HIGH | {installed_version} | {fixed_version} | {description} |")
+                report_lines.append(
+                    f"| {pkg_name} | [{cve_id}]({cve_link}) | HIGH | {installed_version} | {fixed_version} | {description} |"
+                )
 
     report_lines.append("")
     report_lines.append(f"**Total HIGH vulnerabilities: {high_vulns}**")
-    
+
     # Add **VEX notice** at the bottom of the report
     report_lines.append("\n---\n")
     report_lines.append("## For OSS Maintainers: VEX Notice")
@@ -107,18 +110,23 @@ def generate_report():
 
     print(f"📄 Trivy security report saved: {REPORT_FILE}")
 
+    return high_vulns  # ✅ Return vulnerability count to `main()`
+
 # Main function
 def main():
     run_trivy_scan()
-    generate_report()
-    
+    high_vulns = generate_report()
+
+    # ✅ Upload report **before** failing
+    upload_report()
+
     if high_vulns > 0:
-        print(f"❌ Trivy detected {high_vulns} HIGH vulnerabilities. Allowing report upload before failing.")
+        print(f"❌ Trivy detected {high_vulns} HIGH vulnerabilities. Failing workflow.")
         sys.exit(1)  # 🚨 Exit with failure AFTER uploading
     else:
         print("✅ No HIGH vulnerabilities found. Exiting cleanly.")
-        sys.exit(0)    
-    
+        sys.exit(0)
+
 
 if __name__ == "__main__":
     main()
