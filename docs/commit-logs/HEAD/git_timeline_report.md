@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 19:26:02
+> **Generated on:** 2025-01-30 19:43:11
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | 8dd34ec | GitHub Actions |
-| main | e370f5e | GitHub Actions |
-| origin | e1ee9d8 | GitHub Actions |
-| origin/main | e1ee9d8 | GitHub Actions |
+| (no branch, rebasing main) | fef8047 | GitHub Actions |
+| main | 5c5bc52 | GitHub Actions |
+| origin | 67fdc65 | GitHub Actions |
+| origin/main | 67fdc65 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,61 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [fef8047](https://github.com/development-toolbox/demo-container-deploy/commit/fef8047)
+- **Date:** 2025-01-30 19:42:53 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): replace Podman provider with Docker for compatibility
+
+### ✅ Commit: [5c5bc52](https://github.com/development-toolbox/demo-container-deploy/commit/5c5bc52)
+- **Date:** 2025-01-30 19:42:53 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 0dd9bb658426cb74cf4bc151a14cf1954e713af1
+
+### ✅ Commit: [0dd9bb6](https://github.com/development-toolbox/demo-container-deploy/commit/0dd9bb6)
+- **Date:** 2025-01-30 19:42:53 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): replace Podman provider with Docker for compatibility
+
+### ✅ Commit: [67fdc65](https://github.com/development-toolbox/demo-container-deploy/commit/67fdc65)
+- **Date:** 2025-01-30 18:32:54 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [5482a65](https://github.com/development-toolbox/demo-container-deploy/commit/5482a65)
+- **Date:** 2025-01-30 19:32:04 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: a13db8a07559a7be3ac55abe239b5208ed6cea6a
+
+### ✅ Commit: [a13db8a](https://github.com/development-toolbox/demo-container-deploy/commit/a13db8a)
+- **Date:** 2025-01-30 19:32:04 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): add required_version and define variable type
+
+### ✅ Commit: [0c0d1a5](https://github.com/development-toolbox/demo-container-deploy/commit/0c0d1a5)
+- **Date:** 2025-01-30 18:28:09 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [1774be7](https://github.com/development-toolbox/demo-container-deploy/commit/1774be7)
+- **Date:** 2025-01-30 19:27:45 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: ed2a93b6d79dd223d4e3ffc47ec55ec88dcb436d
+
+### ✅ Commit: [ed2a93b](https://github.com/development-toolbox/demo-container-deploy/commit/ed2a93b)
+- **Date:** 2025-01-30 19:27:45 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(docs): added missing docs
+
+### ✅ Commit: [7143968](https://github.com/development-toolbox/demo-container-deploy/commit/7143968)
+- **Date:** 2025-01-30 18:26:28 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [5fcfab8](https://github.com/development-toolbox/demo-container-deploy/commit/5fcfab8)
+- **Date:** 2025-01-30 19:25:41 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 8dd34ecdacb3f4fc52a7683a6e3270a7b6afb429
+
 ### ✅ Commit: [8dd34ec](https://github.com/development-toolbox/demo-container-deploy/commit/8dd34ec)
 - **Date:** 2025-01-30 19:25:41 +0100
 - **Author:** GitHub Actions
@@ -32,16 +87,6 @@
 - **Message:** Update commit timeline: e2bcd145c630db03ba3e9a001acd486e2183aa6b
 
 ### ✅ Commit: [e2bcd14](https://github.com/development-toolbox/demo-container-deploy/commit/e2bcd14)
-- **Date:** 2025-01-30 19:25:41 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder
-
-### ✅ Commit: [e370f5e](https://github.com/development-toolbox/demo-container-deploy/commit/e370f5e)
-- **Date:** 2025-01-30 19:25:41 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: 291d3adc9518f53c306212f331c3348471d1c04b
-
-### ✅ Commit: [291d3ad](https://github.com/development-toolbox/demo-container-deploy/commit/291d3ad)
 - **Date:** 2025-01-30 19:25:41 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder
