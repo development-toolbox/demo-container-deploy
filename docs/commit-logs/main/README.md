@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [610e2c4e](./610e2c4e.md) | 2025-01-30 19:48 | GitHub Actions | fix(terraform): forgot to change podman to docker in every linegit add main.tf |
 | [0dd9bb65](./0dd9bb65.md) | 2025-01-30 19:42 | GitHub Actions | fix(terraform): replace Podman provider with Docker for compatibility |
 | [a13db8a0](./a13db8a0.md) | 2025-01-30 19:32 | GitHub Actions | fix(terraform): add required_version and define variable type |
 | [ed2a93b6](./ed2a93b6.md) | 2025-01-30 19:27 | GitHub Actions | fix(docs): added missing docs |
