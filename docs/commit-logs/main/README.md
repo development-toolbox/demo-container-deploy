@@ -7,6 +7,8 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [b066dffa](./b066dffa.md) | 2025-01-30 17:45 | GitHub Actions | chore(gitignore): fix so gitignore do not ignore my docs/commit-logs |
+| [5b48800f](./5b48800f.md) | 2025-01-30 17:40 | GitHub Actions | refactor(ci): unify report upload logic for TFLint & Trivy scans |
 | [9a3fdba1](./9a3fdba1.md) | 2025-01-30 16:47 | GitHub Actions | fix(security-scan): created a script to do the securityscan and create a md file v1 |
 | [ddac656c](./ddac656c.md) | 2025-01-29 21:01 | GitHub Actions | fix(ci): ensure TFLint report is uploaded before failing the job |
 | [3831d222](./3831d222.md) | 2025-01-29 20:50 | GitHub Actions | fix(ci): removed terraform init because that should not be there! |

@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 16:47:57
+> **Generated on:** 2025-01-30 17:45:13
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | 9a3fdba | GitHub Actions |
-| origin | 14dae10 | GitHub Actions |
-| origin/main | 14dae10 | GitHub Actions |
+| main | b066dff | GitHub Actions |
+| origin | 83c44ee | GitHub Actions |
+| origin/main | 83c44ee | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,10 +20,55 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
-### ✅ Commit: [9a3fdba](https://github.com/development-toolbox/demo-container-deploy/commit/9a3fdba)
+### ✅ Commit: [b066dff](https://github.com/development-toolbox/demo-container-deploy/commit/b066dff)
+- **Date:** 2025-01-30 17:45:13 +0100
+- **Author:** GitHub Actions
+- **Message:** chore(gitignore): fix so gitignore do not ignore my docs/commit-logs
+
+### ✅ Commit: [5b48800](https://github.com/development-toolbox/demo-container-deploy/commit/5b48800)
+- **Date:** 2025-01-30 17:40:49 +0100
+- **Author:** GitHub Actions
+- **Message:** refactor(ci): unify report upload logic for TFLint & Trivy scans
+
+### ✅ Commit: [83c44ee](https://github.com/development-toolbox/demo-container-deploy/commit/83c44ee)
+- **Date:** 2025-01-30 15:52:57 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [54b13ee](https://github.com/development-toolbox/demo-container-deploy/commit/54b13ee)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 0fd5df900b40efa65a379e5f4a8a3b46cbddb38b
+
+### ✅ Commit: [0fd5df9](https://github.com/development-toolbox/demo-container-deploy/commit/0fd5df9)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 9a3fdba16ed17ec00a66f5f0f0d7dec912ea8c35
+
+### ✅ Commit: [a0222f3](https://github.com/development-toolbox/demo-container-deploy/commit/a0222f3)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: a1111001b31e0d6bdbb9a954dd010ba6f8be6b61
+
+### ✅ Commit: [a111100](https://github.com/development-toolbox/demo-container-deploy/commit/a111100)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 5aa6b6f0a4174a1ac5c279f25e4d55e3ff2a5656
+
+### ✅ Commit: [5aa6b6f](https://github.com/development-toolbox/demo-container-deploy/commit/5aa6b6f)
 - **Date:** 2025-01-30 16:47:57 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(security-scan): created a script to do the securityscan and create a md file v1
+
+### ✅ Commit: [86907a9](https://github.com/development-toolbox/demo-container-deploy/commit/86907a9)
+- **Date:** 2025-01-29 23:10:10 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [8ecb61e](https://github.com/development-toolbox/demo-container-deploy/commit/8ecb61e)
+- **Date:** 2025-01-30 00:09:56 +0100
+- **Author:** Johan Sörell
+- **Message:** fix(ci): correct CVE links in Trivy report
 
 ### ✅ Commit: [14dae10](https://github.com/development-toolbox/demo-container-deploy/commit/14dae10)
 - **Date:** 2025-01-29 20:01:58 +0000
