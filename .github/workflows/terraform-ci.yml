@@ -22,7 +22,12 @@ jobs:
           terraform_version: 1.5.5
 
       - name: Install and run TFLint and Generate and upload Report
-        run: python3 scripts/run_tflint_check.py
+        id: tflint
+        run: python3 scripts/run_tflint_check.py || echo "TFLINT_FAILED=true" >> $GITHUB_ENV
+
+      - name: Fail if TFLint Found Issues
+        if: env.TFLINT_FAILED == 'true'
+        run: exit 1  # 🚨 Fail the job after uploading
 
       - name: Terraform Init
         run: terraform init

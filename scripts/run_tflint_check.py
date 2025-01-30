@@ -8,7 +8,7 @@ from datetime import datetime
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPORT_FILE = os.path.join(PROJECT_ROOT, "tflint_report.md")
 DB_FILE = os.path.join(PROJECT_ROOT, "scripts/tflint_issue_fetcher/tflint_issues.json")
-UPLOAD_SCRIPT = os.path.join(PROJECT_ROOT, "scripts/ci_helpers/upload_tflint_report.py")
+UPLOAD_SCRIPT = os.path.join(PROJECT_ROOT, "scripts/ci_helpers/upload_report.py")
 
 
 # Ensure TFLint is installed
@@ -94,8 +94,8 @@ def main():
 
     # **Exit with TFLint's status code to fail CI/CD if needed**
     if issues_found:
-        print("❌ TFLint found issues. Failing the job.")
-        exit(1)
+        print("❌ TFLint found issues. Allowing report upload before failing.")
+        exit(1) # 🚨 Exit with failure AFTER uploading
     else:
         print("✅ No critical issues found. Exiting cleanly.")
         exit(0)
