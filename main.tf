@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "docker" {
-  uri = "unix:///run/user/${var.user_id}/podman/podman.sock"
+  host = "unix:///run/user/${var.user_id}/podman/podman.sock"
 }
 
 variable "user_id" {
