@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [291d3adc](./291d3adc.md) | 2025-01-30 19:25 | GitHub Actions | fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder |
 | [25e57545](./25e57545.md) | 2025-01-30 19:16 | GitHub Actions | fix(terraform): add required provider block and correct podman resource definitions |
 | [c5f8a100](./c5f8a100.md) | 2025-01-30 19:06 | GitHub Actions | fix(script): Updated executable bit |
 | [416d0688](./416d0688.md) | 2025-01-30 19:05 | GitHub Actions | chore(ci): update Trivy report with latest scan results |
