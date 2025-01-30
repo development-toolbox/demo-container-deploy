@@ -1,5 +1,5 @@
 # TFLint Report
-Generated on 2025-01-30 18:26:28
+Generated on 2025-01-30 18:28:09
 
 ❌ Issue detected: **terraform_required_version**
 📝 **Original Message:** `main.tf:1:1: Warning - terraform "required_version" attribute is required (terraform_required_version)`
