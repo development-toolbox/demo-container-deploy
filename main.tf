@@ -1,14 +1,14 @@
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
-    podman = {
-      source  = "hashicorp/podman"
-      version = "~> 1.0"
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 3.0"
     }
   }
 }
 
-provider "podman" {
+provider "docker" {
   uri = "unix:///run/user/${var.user_id}/podman/podman.sock"
 }
 
