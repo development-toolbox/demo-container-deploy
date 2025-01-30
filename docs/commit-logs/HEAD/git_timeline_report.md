@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-29 20:50:56
+> **Generated on:** 2025-01-30 16:50:21
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | 44ee907 | GitHub Actions |
-| main | dff448a | GitHub Actions |
-| origin | c8ad10a | GitHub Actions |
-| origin/main | c8ad10a | GitHub Actions |
+| (no branch, rebasing main) | 5aa6b6f | GitHub Actions |
+| main | 1428b08 | GitHub Actions |
+| origin | 86907a9 | GitHub Actions |
+| origin/main | 86907a9 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,56 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [5aa6b6f](https://github.com/development-toolbox/demo-container-deploy/commit/5aa6b6f)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(security-scan): created a script to do the securityscan and create a md file v1
+
+### ✅ Commit: [1428b08](https://github.com/development-toolbox/demo-container-deploy/commit/1428b08)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 9a3fdba16ed17ec00a66f5f0f0d7dec912ea8c35
+
+### ✅ Commit: [9a3fdba](https://github.com/development-toolbox/demo-container-deploy/commit/9a3fdba)
+- **Date:** 2025-01-30 16:47:57 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(security-scan): created a script to do the securityscan and create a md file v1
+
+### ✅ Commit: [86907a9](https://github.com/development-toolbox/demo-container-deploy/commit/86907a9)
+- **Date:** 2025-01-29 23:10:10 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [8ecb61e](https://github.com/development-toolbox/demo-container-deploy/commit/8ecb61e)
+- **Date:** 2025-01-30 00:09:56 +0100
+- **Author:** Johan Sörell
+- **Message:** fix(ci): correct CVE links in Trivy report
+
+### ✅ Commit: [14dae10](https://github.com/development-toolbox/demo-container-deploy/commit/14dae10)
+- **Date:** 2025-01-29 20:01:58 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update TFLint report with latest scan results
+
+### ✅ Commit: [72f3de5](https://github.com/development-toolbox/demo-container-deploy/commit/72f3de5)
+- **Date:** 2025-01-29 21:01:33 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: ddac656cd3e97b2312069ec74e8ca15a1337f573
+
+### ✅ Commit: [ddac656](https://github.com/development-toolbox/demo-container-deploy/commit/ddac656)
+- **Date:** 2025-01-29 21:01:33 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): ensure TFLint report is uploaded before failing the job
+
+### ✅ Commit: [6f60207](https://github.com/development-toolbox/demo-container-deploy/commit/6f60207)
+- **Date:** 2025-01-29 19:52:16 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Trivy report [skip ci]
+
+### ✅ Commit: [b7d4bba](https://github.com/development-toolbox/demo-container-deploy/commit/b7d4bba)
+- **Date:** 2025-01-29 20:50:21 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 44ee90777f430f424a8ccfc3a7018a5534d866b6
+
 ### ✅ Commit: [44ee907](https://github.com/development-toolbox/demo-container-deploy/commit/44ee907)
 - **Date:** 2025-01-29 20:50:21 +0100
 - **Author:** GitHub Actions
@@ -32,16 +82,6 @@
 - **Message:** Update commit timeline: eb6f4ae6be57b1e9ed7265ba571158b140b3d94a
 
 ### ✅ Commit: [eb6f4ae](https://github.com/development-toolbox/demo-container-deploy/commit/eb6f4ae)
-- **Date:** 2025-01-29 20:50:21 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(ci): removed terraform init because that should not be there!
-
-### ✅ Commit: [dff448a](https://github.com/development-toolbox/demo-container-deploy/commit/dff448a)
-- **Date:** 2025-01-29 20:50:21 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: 3831d2228ae98686289446aaa3a2ff2ce5142cf8
-
-### ✅ Commit: [3831d22](https://github.com/development-toolbox/demo-container-deploy/commit/3831d22)
 - **Date:** 2025-01-29 20:50:21 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(ci): removed terraform init because that should not be there!
