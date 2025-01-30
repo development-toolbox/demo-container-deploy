@@ -17,14 +17,14 @@ variable "user_id" {
   default = "1000"  # Change this based on your user ID dynamically
 }
 
-resource "podman_image" "revealjs" {
+resource "docker_image" "revealjs" {
   name       = "revealjs"
   dockerfile = "${path.module}/Dockerfile"
   context    = path.module
 }
 
-resource "podman_container" "revealjs_presentation" {
-  image = podman_image.revealjs.id
+resource "docker_container" "revealjs_presentation" {
+  image = docker_image.revealjs.id
   name  = "revealjs-container"
 
   ports = {
