@@ -9,14 +9,36 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPORT_FILE = os.path.join(PROJECT_ROOT, "trivy_report.md")
 JSON_REPORT_FILE = os.path.join(PROJECT_ROOT, "trivy_report.json")
 
+# Detect if using Podman or Docker
+USE_PODMAN = os.path.exists(f"/run/user/{os.getuid()}/podman/podman.sock")
+if USE_PODMAN:
+    os.environ["DOCKER_HOST"] = f"unix:///run/user/{os.getuid()}/podman/podman.sock"
+    CONTAINER_RUNTIME = "podman"
+else:
+    CONTAINER_RUNTIME = "docker"
+
 # Run Trivy and capture output
 def run_trivy_scan():
-    """Runs Trivy and generates a JSON report."""
-    print("🚀 Running Trivy Image Scan...")
-    command = ["trivy", "image", "--format", "json", "--severity", "HIGH", "revealjs:latest"]
+    """Runs Trivy with correct runtime and generates a JSON report."""
+    print(f"🚀 Running Trivy Image Scan using {CONTAINER_RUNTIME}...")
     
+    # Ensure the image exists
+    check_image_command = [CONTAINER_RUNTIME, "images", "-q", "revealjs:latest"]
+    result = subprocess.run(check_image_command, capture_output=True, text=True)
+    
+    if not result.stdout.strip():
+        print(f"❌ Error: Image 'revealjs:latest' not found in {CONTAINER_RUNTIME}.")
+        print("💡 Build the image first: `podman build -t revealjs:latest .` (or `docker build ...`)")
+        exit(1)
+
+    command = ["trivy", "image", "--format", "json", "--severity", "HIGH", "revealjs:latest"]
+
     with open(JSON_REPORT_FILE, "w") as json_file:
-        subprocess.run(command, stdout=json_file, check=True)
+        try:
+            subprocess.run(command, stdout=json_file, check=True)
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Trivy scan failed: {e}")
+            exit(1)
 
 # Generate Markdown Report
 def generate_report():
