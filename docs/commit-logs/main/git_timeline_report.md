@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 19:59:57
+> **Generated on:** 2025-01-30 20:13:53
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | d1ac9f9 | GitHub Actions |
-| origin | 13cc9a0 | GitHub Actions |
-| origin/main | 13cc9a0 | GitHub Actions |
+| main | 060e1d7 | GitHub Actions |
+| origin | 2441de9 | GitHub Actions |
+| origin/main | 2441de9 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,6 +20,16 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [060e1d7](https://github.com/development-toolbox/demo-container-deploy/commit/060e1d7)
+- **Date:** 2025-01-30 20:13:53 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): replace `volumes` with `mounts` for Docker compatibility
+
+### ✅ Commit: [2441de9](https://github.com/development-toolbox/demo-container-deploy/commit/2441de9)
+- **Date:** 2025-01-30 19:59:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: d1ac9f97cf0985c0a78e28551b38597a30ab2262
+
 ### ✅ Commit: [d1ac9f9](https://github.com/development-toolbox/demo-container-deploy/commit/d1ac9f9)
 - **Date:** 2025-01-30 19:59:57 +0100
 - **Author:** GitHub Actions
