@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 19:43:21
+> **Generated on:** 2025-01-30 20:14:09
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | b98c3c0 | GitHub Actions |
-| main | 5c5bc52 | GitHub Actions |
-| origin | 67fdc65 | GitHub Actions |
-| origin/main | 67fdc65 | GitHub Actions |
+| (no branch, rebasing main) | deea597 | GitHub Actions |
+| main | 49c67a5 | GitHub Actions |
+| origin | 47d6927 | GitHub Actions |
+| origin/main | 47d6927 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,61 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [deea597](https://github.com/development-toolbox/demo-container-deploy/commit/deea597)
+- **Date:** 2025-01-30 20:13:53 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): replace `volumes` with `mounts` for Docker compatibility
+
+### ✅ Commit: [49c67a5](https://github.com/development-toolbox/demo-container-deploy/commit/49c67a5)
+- **Date:** 2025-01-30 20:13:53 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 060e1d74cedd8918665b1b46b78bf7b1af327d9b
+
+### ✅ Commit: [060e1d7](https://github.com/development-toolbox/demo-container-deploy/commit/060e1d7)
+- **Date:** 2025-01-30 20:13:53 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): replace `volumes` with `mounts` for Docker compatibility
+
+### ✅ Commit: [47d6927](https://github.com/development-toolbox/demo-container-deploy/commit/47d6927)
+- **Date:** 2025-01-30 19:00:38 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [2441de9](https://github.com/development-toolbox/demo-container-deploy/commit/2441de9)
+- **Date:** 2025-01-30 19:59:57 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: d1ac9f97cf0985c0a78e28551b38597a30ab2262
+
+### ✅ Commit: [d1ac9f9](https://github.com/development-toolbox/demo-container-deploy/commit/d1ac9f9)
+- **Date:** 2025-01-30 19:59:57 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): correct provider argument for Docker compatibility
+
+### ✅ Commit: [13cc9a0](https://github.com/development-toolbox/demo-container-deploy/commit/13cc9a0)
+- **Date:** 2025-01-30 18:48:57 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [4eb8182](https://github.com/development-toolbox/demo-container-deploy/commit/4eb8182)
+- **Date:** 2025-01-30 19:48:34 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 610e2c4eac07ceafb436db246be9db95fad12705
+
+### ✅ Commit: [610e2c4](https://github.com/development-toolbox/demo-container-deploy/commit/610e2c4)
+- **Date:** 2025-01-30 19:48:34 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(terraform): forgot to change podman to docker in every linegit add main.tf
+
+### ✅ Commit: [5a7e961](https://github.com/development-toolbox/demo-container-deploy/commit/5a7e961)
+- **Date:** 2025-01-30 18:43:50 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [84052e6](https://github.com/development-toolbox/demo-container-deploy/commit/84052e6)
+- **Date:** 2025-01-30 19:42:53 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b98c3c084905573517d1b00c67a040168e0ed707
+
 ### ✅ Commit: [b98c3c0](https://github.com/development-toolbox/demo-container-deploy/commit/b98c3c0)
 - **Date:** 2025-01-30 19:42:53 +0100
 - **Author:** GitHub Actions
@@ -32,16 +87,6 @@
 - **Message:** Update commit timeline: fef8047cac005d2224b1ebb09d2cfe6f8fb61a25
 
 ### ✅ Commit: [fef8047](https://github.com/development-toolbox/demo-container-deploy/commit/fef8047)
-- **Date:** 2025-01-30 19:42:53 +0100
-- **Author:** GitHub Actions
-- **Message:** fix(terraform): replace Podman provider with Docker for compatibility
-
-### ✅ Commit: [5c5bc52](https://github.com/development-toolbox/demo-container-deploy/commit/5c5bc52)
-- **Date:** 2025-01-30 19:42:53 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: 0dd9bb658426cb74cf4bc151a14cf1954e713af1
-
-### ✅ Commit: [0dd9bb6](https://github.com/development-toolbox/demo-container-deploy/commit/0dd9bb6)
 - **Date:** 2025-01-30 19:42:53 +0100
 - **Author:** GitHub Actions
 - **Message:** fix(terraform): replace Podman provider with Docker for compatibility

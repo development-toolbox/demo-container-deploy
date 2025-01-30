@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [deea597f](./deea597f.md) | 2025-01-30 20:13 | GitHub Actions | fix(terraform): replace `volumes` with `mounts` for Docker compatibility |
 | [fef8047c](./fef8047c.md) | 2025-01-30 19:42 | GitHub Actions | fix(terraform): replace Podman provider with Docker for compatibility |
 | [b98c3c08](./b98c3c08.md) | 2025-01-30 19:42 | GitHub Actions | Update commit timeline: 0dd9bb658426cb74cf4bc151a14cf1954e713af1 |
 | [e2bcd145](./e2bcd145.md) | 2025-01-30 19:25 | GitHub Actions | fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder |
