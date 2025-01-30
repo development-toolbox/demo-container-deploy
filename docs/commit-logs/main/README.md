@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [ef972b4c](./ef972b4c.md) | 2025-01-30 18:08 | GitHub Actions | chore(ci): update TFLint report with latest scan results |
 | [b066dffa](./b066dffa.md) | 2025-01-30 17:45 | GitHub Actions | chore(gitignore): fix so gitignore do not ignore my docs/commit-logs |
 | [5b48800f](./5b48800f.md) | 2025-01-30 17:40 | GitHub Actions | refactor(ci): unify report upload logic for TFLint & Trivy scans |
 | [9a3fdba1](./9a3fdba1.md) | 2025-01-30 16:47 | GitHub Actions | fix(security-scan): created a script to do the securityscan and create a md file v1 |
