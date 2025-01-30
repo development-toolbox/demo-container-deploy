@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [a13db8a0](./a13db8a0.md) | 2025-01-30 19:32 | GitHub Actions | fix(terraform): add required_version and define variable type |
 | [ed2a93b6](./ed2a93b6.md) | 2025-01-30 19:27 | GitHub Actions | fix(docs): added missing docs |
 | [291d3adc](./291d3adc.md) | 2025-01-30 19:25 | GitHub Actions | fix(terraform): heeh changed the wrong main last time :-D now the broken is in the Example folder |
 | [25e57545](./25e57545.md) | 2025-01-30 19:16 | GitHub Actions | fix(terraform): add required provider block and correct podman resource definitions |
