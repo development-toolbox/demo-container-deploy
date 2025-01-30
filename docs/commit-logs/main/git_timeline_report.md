@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-30 18:27:41
+> **Generated on:** 2025-01-30 18:59:00
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | 9d719f6 | GitHub Actions |
-| origin | f964dda | GitHub Actions |
-| origin/main | f964dda | GitHub Actions |
+| main | 442bad9 | GitHub Actions |
+| origin | 1d2c437 | GitHub Actions |
+| origin/main | 1d2c437 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,6 +20,16 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [442bad9](https://github.com/development-toolbox/demo-container-deploy/commit/442bad9)
+- **Date:** 2025-01-30 18:59:00 +0100
+- **Author:** GitHub Actions
+- **Message:** fix(ci): corrected upload_report call to handle multiple scan types
+
+### ✅ Commit: [1d2c437](https://github.com/development-toolbox/demo-container-deploy/commit/1d2c437)
+- **Date:** 2025-01-30 18:27:40 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 9d719f6a29cfe6ce429bee121dda0e3390cbaa81
+
 ### ✅ Commit: [9d719f6](https://github.com/development-toolbox/demo-container-deploy/commit/9d719f6)
 - **Date:** 2025-01-30 18:27:40 +0100
 - **Author:** GitHub Actions
