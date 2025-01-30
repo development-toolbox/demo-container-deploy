@@ -36,5 +36,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Ignore commit- files the files I use for longer commits
-commit-*
+# Make surte my commit files for long commits are ignored but not the docs commit-logs
+commit-*            # Ignore all files that start with "commit-"
+!docs/commit-logs/*  # Do not ignore files inside docs/commit-logs/
