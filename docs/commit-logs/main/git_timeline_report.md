@@ -1,15 +1,15 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-31 13:10:11
+> **Generated on:** 2025-01-31 13:24:50
 
 > **Branch:** `main`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| main | a6b1858 | GitHub Actions |
-| origin | 3453e67 | GitHub Actions |
-| origin/main | 3453e67 | GitHub Actions |
+| main | 0438097 | GitHub Actions |
+| origin | f8731eb | GitHub Actions |
+| origin/main | f8731eb | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -20,10 +20,35 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
-### ✅ Commit: [a6b1858](https://github.com/development-toolbox/demo-container-deploy/commit/a6b1858)
+### ✅ Commit: [0438097](https://github.com/development-toolbox/demo-container-deploy/commit/0438097)
+- **Date:** 2025-01-31 13:24:49 +0100
+- **Author:** GitHub Actions
+- **Message:** docs(readme): added Sonarcloud badges
+
+### ✅ Commit: [f8731eb](https://github.com/development-toolbox/demo-container-deploy/commit/f8731eb)
+- **Date:** 2025-01-31 13:10:11 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b4f4d95c5b4a1bfa1ff3032fe600227b9966f96d
+
+### ✅ Commit: [b4f4d95](https://github.com/development-toolbox/demo-container-deploy/commit/b4f4d95)
+- **Date:** 2025-01-31 13:10:11 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: a6b18588d532e22d6d5789d9e116d5f638e5a3a9
+
+### ✅ Commit: [f59818d](https://github.com/development-toolbox/demo-container-deploy/commit/f59818d)
+- **Date:** 2025-01-31 13:10:11 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 4e9d9531e4d508707ddbdecbc0de3e490778211b
+
+### ✅ Commit: [4e9d953](https://github.com/development-toolbox/demo-container-deploy/commit/4e9d953)
 - **Date:** 2025-01-31 13:10:11 +0100
 - **Author:** GitHub Actions
 - **Message:** chore(demo): adding failing main.tf
+
+### ✅ Commit: [fba1676](https://github.com/development-toolbox/demo-container-deploy/commit/fba1676)
+- **Date:** 2025-01-30 19:14:39 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
 
 ### ✅ Commit: [3453e67](https://github.com/development-toolbox/demo-container-deploy/commit/3453e67)
 - **Date:** 2025-01-30 20:13:53 +0100
