@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [a6b18588](./a6b18588.md) | 2025-01-31 13:10 | GitHub Actions | chore(demo): adding failing main.tf |
 | [060e1d74](./060e1d74.md) | 2025-01-30 20:13 | GitHub Actions | fix(terraform): replace `volumes` with `mounts` for Docker compatibility |
 | [d1ac9f97](./d1ac9f97.md) | 2025-01-30 19:59 | GitHub Actions | fix(terraform): correct provider argument for Docker compatibility |
 | [610e2c4e](./610e2c4e.md) | 2025-01-30 19:48 | GitHub Actions | fix(terraform): forgot to change podman to docker in every linegit add main.tf |
