@@ -6,6 +6,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=development-toolbox_demo-container-deploy&metric=bugs)](https://sonarcloud.io/summary/new_code?id=development-toolbox_demo-container-deploy)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=development-toolbox_demo-container-deploy&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=development-toolbox_demo-container-deploy)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=development-toolbox_demo-container-deploy&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=development-toolbox_demo-container-deploy)
+
 A **Terraform-based** deployment demo for containerized applications with **CI/CD security scanning**. Initially with **Reveal.js**, but built for future container-based applications it's easy changeable.
 
 ---
