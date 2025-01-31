@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [73a784b7](./73a784b7.md) | 2025-01-31 13:36 | GitHub Actions | chore(codequality): added sonar.python.version to 3.9.21 |
 | [93d85c93](./93d85c93.md) | 2025-01-31 13:32 | GitHub Actions | chore(codequality): added sonarcloud conf and build workflow |
 | [d09691a6](./d09691a6.md) | 2025-01-31 13:26 | GitHub Actions | docs(readme): fix newline |
 | [0438097c](./0438097c.md) | 2025-01-31 13:24 | GitHub Actions | docs(readme): added Sonarcloud badges |
