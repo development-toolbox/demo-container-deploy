@@ -1,16 +1,16 @@
 # 📊 Git Commit Timeline
 
-> **Generated on:** 2025-01-31 13:10:44
+> **Generated on:** 2025-01-31 13:24:55
 
 > **Branch:** `HEAD`
 
 ## 📦 Branches
 | **Branch Name** | **Last Commit** | **Author** |
 |----------------|--------------|------------|
-| (no branch, rebasing main) | b4f4d95 | GitHub Actions |
-| main | 47e7fad | GitHub Actions |
-| origin | fba1676 | GitHub Actions |
-| origin/main | fba1676 | GitHub Actions |
+| (no branch, rebasing main) | 8d4f7e9 | GitHub Actions |
+| main | 16ac0d5 | GitHub Actions |
+| origin | 98eada9 | GitHub Actions |
+| origin/main | 98eada9 | GitHub Actions |
 
 ## 🏷️ Tags
 | **Tag** | **Commit Hash** | **Tagged On** |
@@ -21,6 +21,31 @@
 |------------|-------------|---------|
 
 ## 📑 Commit Log
+### ✅ Commit: [8d4f7e9](https://github.com/development-toolbox/demo-container-deploy/commit/8d4f7e9)
+- **Date:** 2025-01-31 13:24:49 +0100
+- **Author:** GitHub Actions
+- **Message:** docs(readme): added Sonarcloud badges
+
+### ✅ Commit: [16ac0d5](https://github.com/development-toolbox/demo-container-deploy/commit/16ac0d5)
+- **Date:** 2025-01-31 13:24:49 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: 0438097c86e2d151ae1f253ef848a1abd26c7a3d
+
+### ✅ Commit: [0438097](https://github.com/development-toolbox/demo-container-deploy/commit/0438097)
+- **Date:** 2025-01-31 13:24:49 +0100
+- **Author:** GitHub Actions
+- **Message:** docs(readme): added Sonarcloud badges
+
+### ✅ Commit: [98eada9](https://github.com/development-toolbox/demo-container-deploy/commit/98eada9)
+- **Date:** 2025-01-31 12:11:27 +0000
+- **Author:** GitHub Actions
+- **Message:** chore(ci): update Tflint report with latest scan results
+
+### ✅ Commit: [f8731eb](https://github.com/development-toolbox/demo-container-deploy/commit/f8731eb)
+- **Date:** 2025-01-31 13:10:11 +0100
+- **Author:** GitHub Actions
+- **Message:** Update commit timeline: b4f4d95c5b4a1bfa1ff3032fe600227b9966f96d
+
 ### ✅ Commit: [b4f4d95](https://github.com/development-toolbox/demo-container-deploy/commit/b4f4d95)
 - **Date:** 2025-01-31 13:10:11 +0100
 - **Author:** GitHub Actions
@@ -32,16 +57,6 @@
 - **Message:** Update commit timeline: 4e9d9531e4d508707ddbdecbc0de3e490778211b
 
 ### ✅ Commit: [4e9d953](https://github.com/development-toolbox/demo-container-deploy/commit/4e9d953)
-- **Date:** 2025-01-31 13:10:11 +0100
-- **Author:** GitHub Actions
-- **Message:** chore(demo): adding failing main.tf
-
-### ✅ Commit: [47e7fad](https://github.com/development-toolbox/demo-container-deploy/commit/47e7fad)
-- **Date:** 2025-01-31 13:10:11 +0100
-- **Author:** GitHub Actions
-- **Message:** Update commit timeline: a6b18588d532e22d6d5789d9e116d5f638e5a3a9
-
-### ✅ Commit: [a6b1858](https://github.com/development-toolbox/demo-container-deploy/commit/a6b1858)
 - **Date:** 2025-01-31 13:10:11 +0100
 - **Author:** GitHub Actions
 - **Message:** chore(demo): adding failing main.tf

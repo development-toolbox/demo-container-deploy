@@ -7,6 +7,7 @@ Each commit links to its detailed log.
 
 | Commit Hash | Date & Time       | Author       | Message           |
 |-------------|------------------|--------------|-------------------|
+| [8d4f7e92](./8d4f7e92.md) | 2025-01-31 13:24 | GitHub Actions | docs(readme): added Sonarcloud badges |
 | [b4f4d95c](./b4f4d95c.md) | 2025-01-31 13:10 | GitHub Actions | Update commit timeline: a6b18588d532e22d6d5789d9e116d5f638e5a3a9 |
 | [4e9d9531](./4e9d9531.md) | 2025-01-31 13:10 | GitHub Actions | chore(demo): adding failing main.tf |
 | [fef91cdf](./fef91cdf.md) | 2025-01-30 20:13 | GitHub Actions | Update commit timeline: 060e1d74cedd8918665b1b46b78bf7b1af327d9b |
